@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "production": "friendlychat-iyla",
+    "default": "friendlychat-iyla"
+  },
+  "targets": {},
+  "etags": {}
+}
