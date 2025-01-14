@@ -73,10 +73,9 @@ export class ChatService {
     });
   }
 
-<<<<<<< HEAD
   // Signs-in Friendly Chat.
-  login() {
-    signInWithPopup(this.auth, this.provider).then((result) => {
+login() {
+  signInWithPopup(this.auth, this.provider).then((result) => {
       const credential = GoogleAuthProvider.credentialFromResult(result);
       this.router.navigate(['/', 'chat']);
       return credential;
@@ -92,13 +91,6 @@ export class ChatService {
       console.log('sign out error: ' + error);
     })
   }
-=======
-  // Login Friendly Chat.
-  login() {}
-
-  // Logout of Friendly Chat.
-  logout() {}
->>>>>>> 9c92ca525fa457e1948b9bc45e40b63ef63ab68e
 
   // Adds a text or image message to Cloud Firestore.
   addMessage = async (
