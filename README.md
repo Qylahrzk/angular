@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # angular-fire-base
 =======
 =======
@@ -31,7 +29,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-<<<<<<< HEAD
->>>>>>> 9c92ca5 (codelab starting point)
-=======
->>>>>>> 9c92ca525fa457e1948b9bc45e40b63ef63ab68e
