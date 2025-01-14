@@ -73,6 +73,7 @@ export class ChatService {
     });
   }
 
+<<<<<<< HEAD
   // Signs-in Friendly Chat.
   login() {
     signInWithPopup(this.auth, this.provider).then((result) => {
@@ -91,10 +92,18 @@ export class ChatService {
       console.log('sign out error: ' + error);
     })
   }
+=======
+  // Login Friendly Chat.
+  login() {}
+
+  // Logout of Friendly Chat.
+  logout() {}
+>>>>>>> 9c92ca525fa457e1948b9bc45e40b63ef63ab68e
 
   // Adds a text or image message to Cloud Firestore.
   addMessage = async (
     textMessage: string | null,
+<<<<<<< HEAD
     imageUrl: string | null,
   ): Promise<void | DocumentReference<DocumentData>> => {
     // ignore empty messages
@@ -133,12 +142,17 @@ export class ChatService {
     return;
   }
 };
+=======
+    imageUrl: string | null
+  ): Promise<void | DocumentReference<DocumentData>> => {};
+>>>>>>> 9c92ca525fa457e1948b9bc45e40b63ef63ab68e
 
   // Saves a new message to Cloud Firestore.
   saveTextMessage = async (messageText: string) => {
     return this.addMessage(messageText, null);
   };
 
+<<<<<<< HEAD
   // Loads chat message history and listens for upcoming ones.
   loadMessages = () => {
   // Create the query to load the last 12 messages and listen for new ones.
@@ -146,6 +160,12 @@ export class ChatService {
   // Start listening to the query.
   return collectionData(recentMessagesQuery);
 }
+=======
+  // Loads chat messages history and listens for upcoming ones.
+  loadMessages = () => {
+    return null as unknown;
+  };
+>>>>>>> 9c92ca525fa457e1948b9bc45e40b63ef63ab68e
 
   // Saves a new message containing an image in Firebase.
   // This first saves the image in Firebase storage.
