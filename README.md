@@ -57,22 +57,29 @@ This project was developed as part of an individual assignment to explore the in
 
 ## **Discussion SneekPeak**
 
-**Challenges Faced**
-1. Angular Version Compatibility: Resolved by downgrading Angular CLI and core to version 18.
+The Angular Firebase Web-Friendly Chat lab activity was both challenging and rewarding, expanding my knowledge of Angular and Firebase. The assignment involved using Angular's core concepts, integrating Firebase services like Firestore, Authentication, and Storage, and resolving various technical issues.
 
-2. Errors During AngularFire Installation: Fixed package.json errors with jsonlint.
+**Challenges**
+1. Angular Version Compatibility:
+The version mismatch between Angular 18 (as per the lab instructions) and Angular 19 on my system led to errors. Downgrading Angular CLI and core packages resolved this issue.
 
-3. Firebase Hosting and AI Features: Restricted due to paid plan requirements.
+2. Errors During AngularFire Installation:
+Syntax errors in the package.json file caused the npm install to fail. Using a JSON validation tool helped identify and fix the issue.
 
-4. Profile Picture Handling: Debugged image URL and adjusted Firebase Storage rules.
+3. Firebase Hosting and AI Features:
+The free Firebase plan restricted access to AI features. I focused on local development to test core features like real-time chat and authentication, learning about the limitations of free-tier services.
 
-5. Local Development Issues: Used alternative commands to bypass host restrictions.
+4. Profile Picture and Image Handling:
+Uploading and displaying images in Firebase Storage was problematic due to incorrect URL generation and permission issues. Adjusting storage rules and optimizing image loading resolved the issue, though delays remained.
 
 **Lessons Learned**
-1. Understanding Angular components, services, and routing.
+1. Angular Core Concepts:
+I improved my understanding of Angular's components, services, RxJS, and routing. These concepts are key to building dynamic and scalable web applications.
 
-2. Gaining hands-on experience with Firebase Authentication and Firestore.
+2. Firebase Integration:
+Firebase provided reliable backend services, especially for real-time data storage (Firestore), user authentication, and image management. Understanding Firestore’s data structure and managing storage permissions was crucial.
 
-3. Debugging errors and leveraging tools like Firebase Emulator Suite.
+3. Debugging and Problem-Solving:
+This lab sharpened my debugging skills. I used tools like Visual Studio Code, Command Prompt, and Chrome DevTools to diagnose and resolve errors effectively.
    
 For a detailed discussion, please refer to the report.
