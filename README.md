@@ -55,7 +55,7 @@ To clone and run the application on your local machine, follow these steps:
 This project was developed as part of an individual assignment to explore the integration of Angular with Firebase. Following a guided lab activity, the aim was to build a functional web chat application and understand the concepts of real-time database interaction, user authentication, and file storage.
 
 
-## **Discussion SneekPeak**
+## **Discussion SneekPeek**
 
 The Angular Firebase Web-Friendly Chat lab activity was both challenging and rewarding, expanding my knowledge of Angular and Firebase. The assignment involved using Angular's core concepts, integrating Firebase services like Firestore, Authentication, and Storage, and resolving various technical issues.
 
