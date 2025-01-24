@@ -96,6 +96,7 @@ addMessage = async (
   textMessage: string | null,
   imageUrl: string | null,
 ): Promise<void | DocumentReference<DocumentData>> => {
+  
   // ignore empty messages
   if (!textMessage && !imageUrl) {
     console.log(
