@@ -92,11 +92,11 @@ export class ChatService {
   }
 
   // Adds a text or image message to Cloud Firestore.
-  addMessage = async (
-    textMessage: string | null,
-    imageUrl: string | null,
-  ): Promise<void | DocumentReference<DocumentData>> => {
-    // ignore empty messages
+addMessage = async (
+  textMessage: string | null,
+  imageUrl: string | null,
+): Promise<void | DocumentReference<DocumentData>> => {
+  // ignore empty messages
   if (!textMessage && !imageUrl) {
     console.log(
       "addMessage was called without a message",
