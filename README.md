@@ -1,11 +1,10 @@
-# angular-fire-base
+# Angular
 # Friendlychat
 =======
 
 # FriendlyChat - Angular Firebase Project
 
 This project demonstrates the development of a real-time web chat application using Angular and Firebase. It includes features such as user authentication, real-time messaging, and file sharing, leveraging Firebase's Firestore, Authentication, and Storage services.
->>>>>>> ca830f2ad2c931a0941bfbbe8c73e678356c6985
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
@@ -38,22 +37,17 @@ To clone and run the application on your local machine, follow these steps:
 4. If you encounter host or firewall restrictions, use this command:
    ng serve --open --host 0.0.0.0 --disable-host-check
 
-5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will
-   automatically reload if you change any of the source files.
+5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-6. Run `ng generate component component-name` to generate a new component. You can also use `ng
-   generate directive|pipe|service|class|guard|interface|enum|module`.
+6. To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-7. Run `ng build` to build the project. The build artifacts will be stored in the `dist/`
-   directory.
+7. Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-8. Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+8. Run `ng build` to build the project. The build artifacts will be stored in the `dist/`directory.
 
-9. Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+9. Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-10. To get more help on the Angular CLI use `ng help` or go check out the 
-    [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+10. Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 
 ## **Project Background**
